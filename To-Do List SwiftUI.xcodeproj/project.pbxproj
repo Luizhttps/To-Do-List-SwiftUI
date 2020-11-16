@@ -13,7 +13,10 @@
 		4E07EF9F23F2130C00EA9B7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07EF9E23F2130C00EA9B7D /* ContentView.swift */; };
 		4E07EFA123F2131000EA9B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E07EFA023F2131000EA9B7D /* Assets.xcassets */; };
 		4E07EFA423F2131000EA9B7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E07EFA323F2131000EA9B7D /* Preview Assets.xcassets */; };
-		4E07EFA723F2131000EA9B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E07EFA523F2131000EA9B7D /* LaunchScreen.storyboard */; };
+		4E07EFA723F2131000EA9B7D /* LaunchScreen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E07EFA523F2131000EA9B7D /* LaunchScreen1.storyboard */; };
+		4E07EFAF23F2140E00EA9B7D /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07EFAE23F2140E00EA9B7D /* ToDoItem.swift */; };
+		4E07EFB123F2211000EA9B7D /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07EFB023F2211000EA9B7D /* ToDoItemView.swift */; };
+		4E07EFB323F2324500EA9B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E07EFB223F2324500EA9B7D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +27,11 @@
 		4E07EF9E23F2130C00EA9B7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E07EFA023F2131000EA9B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E07EFA323F2131000EA9B7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4E07EFA623F2131000EA9B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E07EFA623F2131000EA9B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen1.storyboard; sourceTree = "<group>"; };
 		4E07EFA823F2131000EA9B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E07EFAE23F2140E00EA9B7D /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		4E07EFB023F2211000EA9B7D /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
+		4E07EFB223F2324500EA9B7D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,11 @@
 				4E07EF9723F2130C00EA9B7D /* AppDelegate.swift */,
 				4E07EF9923F2130C00EA9B7D /* SceneDelegate.swift */,
 				4E07EF9E23F2130C00EA9B7D /* ContentView.swift */,
+				4E07EFAE23F2140E00EA9B7D /* ToDoItem.swift */,
+				4E07EFB023F2211000EA9B7D /* ToDoItemView.swift */,
 				4E07EFA023F2131000EA9B7D /* Assets.xcassets */,
-				4E07EFA523F2131000EA9B7D /* LaunchScreen.storyboard */,
+				4E07EFB223F2324500EA9B7D /* LaunchScreen.storyboard */,
+				4E07EFA523F2131000EA9B7D /* LaunchScreen1.storyboard */,
 				4E07EFA823F2131000EA9B7D /* Info.plist */,
 				4E07EF9B23F2130C00EA9B7D /* To_Do_List_SwiftUI.xcdatamodeld */,
 				4E07EFA223F2131000EA9B7D /* Preview Content */,
@@ -105,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Luiz Otavio";
 				TargetAttributes = {
 					4E07EF9323F2130C00EA9B7D = {
@@ -136,8 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E07EFA723F2131000EA9B7D /* LaunchScreen.storyboard in Resources */,
+				4E07EFA723F2131000EA9B7D /* LaunchScreen1.storyboard in Resources */,
 				4E07EFA423F2131000EA9B7D /* Preview Assets.xcassets in Resources */,
+				4E07EFB323F2324500EA9B7D /* LaunchScreen.storyboard in Resources */,
 				4E07EFA123F2131000EA9B7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E07EF9823F2130C00EA9B7D /* AppDelegate.swift in Sources */,
+				4E07EFB123F2211000EA9B7D /* ToDoItemView.swift in Sources */,
 				4E07EF9D23F2130C00EA9B7D /* To_Do_List_SwiftUI.xcdatamodeld in Sources */,
+				4E07EFAF23F2140E00EA9B7D /* ToDoItem.swift in Sources */,
 				4E07EF9F23F2130C00EA9B7D /* ContentView.swift in Sources */,
 				4E07EF9A23F2130C00EA9B7D /* SceneDelegate.swift in Sources */,
 			);
@@ -159,12 +171,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4E07EFA523F2131000EA9B7D /* LaunchScreen.storyboard */ = {
+		4E07EFA523F2131000EA9B7D /* LaunchScreen1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4E07EFA623F2131000EA9B7D /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen1.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -196,6 +208,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -220,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -256,6 +269,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -274,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
